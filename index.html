@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-quds Tickets Booking</title>
+    
+    <link rel="icon" href="uploads/images.jpeg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+      
+      <h2>Al-quds tickets</h2>
+        <div class="logo">
+          
+            <img src="uploads/(1).jpg" alt="Al-quds Tickets">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#book-ticket">Book Ticket</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+      <!--<img src="uploads/airplane.jpg" width="100%" height="250px">-->
+        <h1>Welcome to Pilot Tickets</h1>
+        <p>Book your flight tickets easily</p>
+    </section>
+
+    <section id="book-ticket">
+        <h2>Book Your Ticket</h2>
+        <form id="ticket-form">
+            <label for="from">From:</label>
+            <input type="text" id="from" name="from" placeholder="Departure location" required>
+
+            <label for="to">To:</label>
+            <input type="text" id="to" name="to" placeholder="Destination location" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="passengers">Passengers:</label>
+            <input type="number" id="passengers" name="passengers" min="1" required>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: alqudstickets.gamial.com</p>
+        <p>Phone: 1-800-555-1234</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pilot Tickets</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
